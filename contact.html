@@ -1,0 +1,77 @@
+<!-- Aşağıdaki içerikleri CSS ile biçimlendirerek etiketleyin. -->
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <!-- Link your CSS stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400;500;600;700&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/hot-air.ico">
+</head>
+
+<body>
+
+    <div class=" container">
+        <header>
+            <ul class="space-between">
+                <li class="flex-item anasayfa"><a href="index.html">Anasayfa</a></li>
+                <li class="flex-item gezi"><a href="/gezi.html">Gezinizi Planlayın</a></li>
+                <li class="flex-item bilgi"><a href="/index.html">Bilgi edinin</a></li>
+                <li class="flex-item karsilastirma"><a href="/karsilastirma.html">Karşılaştırın</a></li>
+            </ul>
+        </header>
+    </div>
+
+
+
+    <section>
+
+        <h2 class="textAlignCenter">Kapadokya Gezi Rehberi</h2>
+
+        <div class="container">
+
+            <div class="backgroundgray">
+
+                <form action="/contact.html">
+
+                    <label for="fname">Adınız</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Adınızı Girin">
+
+                    <label for="lname">Soyadınız</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Soyadınızı Girin">
+
+                    <label for="sss">Merak Ettiginiz</label>
+                    <select id="sss" name="sss">
+                        <option value="tur">Tur Hakkinda Sorular</option>
+                        <option value="randevu">Tur Randevulari</option>
+                        <option value="zeplin">Hava Balonu ve Atv Hakkında Bilgiler</option>
+                    </select>
+
+                    <label for="subject">Mesaj</label>
+                    <textarea id="subject" name="subject" placeholder="Mesajınız Nedir ? "
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Gönder">
+
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

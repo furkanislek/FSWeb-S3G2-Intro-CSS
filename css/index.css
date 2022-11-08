@@ -12,6 +12,7 @@ body {
 
 .container .space-between li {
   list-style: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .container .space-between li a {
   list-style: none;
@@ -47,6 +48,10 @@ body {
   border-radius: 20px;
   color: white;
   text-align: center;
+}
+
+.anasayfa {
+  background-color: #aa17ff;
 }
 
 .gezi {
@@ -113,7 +118,7 @@ footer {
   width: 100%;
 
   aspect-ratio: 20 / 2;
-
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-image: url(/assets/footer_img.jpg);
   background-position: center 12.5%;
   background-repeat: no-repeat;

@@ -1,5 +1,4 @@
 * {
-  font-family: "Roboto Mono", monospace;
   font-size: 20px;
 }
 
@@ -8,12 +7,11 @@ body {
 }
 
 .container {
-  padding: 50px 400px;
+  padding: 1rem 20rem;
 }
 
 .container .space-between li {
   list-style: none;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .container .space-between li a {
@@ -41,6 +39,8 @@ body {
   margin: 0;
   display: flex;
   justify-content: space-between;
+
+  font-family: "Roboto Mono", monospace;
 }
 
 .flex-item {
@@ -69,40 +69,24 @@ body {
 }
 
 section h2 {
+  margin-bottom: 0;
+  margin-top: 3.5rem;
   text-align: center;
   font-size: 2.4rem;
   font-family: "Edu QLD Beginner", cursive;
 }
 
-.backgroundgray {
-  background-color: #1c1d1e;
-  padding: 3rem;
-  border-radius: 1.4rem;
+ol li {
+  font-weight: bold;
 }
 
-.container .part1,
-.part2,
-.part3 {
-  display: inline-block;
-  width: 30%;
-  margin-left: 1.2rem;
-  margin-top: 0;
-}
-.white {
-  color: #fff;
+ol li p {
+  font-weight: 100;
 }
 
-.context p {
-  color: #d3d4d4;
-  opacity: 0.5;
-}
-
-.partimg img {
-  width: 100%;
-  height: 12rem;
-  border-radius: 1rem;
-  border: 1px solid black;
-  margin-top: 0;
+.container h4 {
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 .container h3 {
@@ -132,6 +116,54 @@ section h2 {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.makale p {
-  text-align: justify;
+.ortalama {
+  display: flex;
+}
+
+.column {
+  flex: 40%;
+  padding-right: 1rem;
+}
+
+.column img {
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  height: 25rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border-top: 2px solid rgb(201, 199, 199);
+  border-left: 2px solid rgb(201, 199, 199);
+  border-right: 2px solid rgb(201, 199, 199);
+  border-bottom: 2px solid rgb(201, 199, 199);
+  margin-top: 4rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 5rem;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 16px;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #d4d4d4;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-remove {
+  color: red;
 }
