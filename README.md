@@ -61,5 +61,5 @@ Repository'niz hazır olunca verilen dizayn göze alınarak bugün öğrendiğin
 Aşağıdakileri uygulayın.
 
 - [x] CSS animasyonları ekleyin (hover, mouseover, etc.)
-- [ ]  `Gezinizi Planlayın`, `Bilgi Edinin`, ve `Karşılaştırın` sayfaları için kendi tasarımlarınızı yapın ve çalıştırın
+- [x]  `Gezinizi Planlayın`, `Bilgi Edinin`, ve `Karşılaştırın` sayfaları için kendi tasarımlarınızı yapın ve çalıştırın
 - [x]  [favicon.io](https://favicon.io/favicon-converter/) sitesini kullanarak atv ve balon ikonlarını favicon'a dönüştürüp sayfaya ekleyin.
