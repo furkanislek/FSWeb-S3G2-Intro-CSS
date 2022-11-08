@@ -7,8 +7,16 @@
 }
 
 .container .space-between li a{
+    list-style: none;
     text-decoration: none;
     color: white;
+}
+.container .space-between li:hover{
+    list-style: none;
+
+    background-color: #001a8d;
+    color: #ffcd69;
+    opacity: 0.8;
 }
 
 .container.main{
