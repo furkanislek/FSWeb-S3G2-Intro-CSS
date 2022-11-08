@@ -2,7 +2,7 @@
   font-family: "Roboto Mono", monospace;
 }
 
-body{
+body {
   background-color: #d3d4d456;
 }
 
@@ -10,27 +10,27 @@ body{
   padding: 50px 400px;
 }
 
-.container .space-between li{
+.container .space-between li {
   list-style: none;
 }
-.container .space-between li a{
-    list-style: none;
-    text-decoration: none;
-    color: white;
+.container .space-between li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
 }
-.container .space-between li:hover{
-    list-style: none;
-    background-color: #001a8d;
-    color: #ffcd69;
-    opacity: 0.8;
+.container .space-between li:hover {
+  list-style: none;
+  background-color: #001a8d;
+  color: #ffcd69;
+  opacity: 0.8;
 }
 
-.container.main{
-    background-color: #DDB9A3;
-    margin: 5px 350px;
-    padding: 5px 15px;
-    text-align: center;
-    color: rgb(255, 255, 255);
+.container.main {
+  background-color: #ddb9a3;
+  margin: 5px 350px;
+  padding: 5px 15px;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .space-between {
@@ -94,25 +94,23 @@ body{
   font-weight: bold;
 }
 
-
-
-.part1{
-    text-align: center;
-    width: 25rem;
-    margin: auto;
-    margin-bottom: 5rem;
+.part1 {
+  text-align: center;
+  width: 25rem;
+  margin: auto;
+  margin-bottom: 5rem;
 }
 
-.part1 img{
-    width: 4rem;
+.part1 img {
+  width: 4rem;
 }
 
-footer{
-    width: 100%;
+footer {
+  width: 100%;
 }
 
-.footersvg{
-    width: 100%;
+.footersvg {
+  width: 100%;
 
   aspect-ratio: 20 / 2;
 
