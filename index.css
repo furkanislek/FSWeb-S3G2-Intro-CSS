@@ -13,7 +13,6 @@
 }
 .container .space-between li:hover{
     list-style: none;
-
     background-color: #001a8d;
     color: #ffcd69;
     opacity: 0.8;
