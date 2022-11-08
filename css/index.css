@@ -2,10 +2,17 @@
   font-family: "Roboto Mono", monospace;
 }
 
+body{
+  background-color: #d3d4d456;
+}
+
 .container {
   padding: 50px 400px;
 }
 
+.container .space-between li{
+  list-style: none;
+}
 .container .space-between li a{
     list-style: none;
     text-decoration: none;

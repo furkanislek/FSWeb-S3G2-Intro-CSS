@@ -1,0 +1,145 @@
+* {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+  }
+  
+  body{
+    background-color: #d3d4d456;
+  }
+
+  .container {
+    padding: 50px 400px;
+  }
+  
+  .container .space-between li{
+    list-style: none;
+  }
+
+  .container .space-between li a{
+      list-style: none;
+      text-decoration: none;
+      color: white;
+  }
+  .container .space-between li:hover{
+      list-style: none;
+      background-color: #001a8d;
+      color: #ffcd69;
+      opacity: 0.8;
+  }
+  
+  .container.main{
+      background-color: #DDB9A3;
+      margin: 5px 350px;
+      padding: 5px 15px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+  }
+  
+  .space-between {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex-item {
+    width: 200px;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .gezi {
+    background-color: #ff764e;
+  }
+  
+  .bilgi {
+    background-color: #5ed3eb;
+  }
+  
+  .karsilastirma {
+    background-color: #ffcd69;
+  }
+
+section h2{
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: "Edu QLD Beginner", cursive;
+}
+
+.backgroundgray{
+    background-color: #1C1D1E;
+    padding: 3rem;
+    border-radius: 1.4rem;
+}
+
+.container .part1, .part2, .part3  {
+    display: inline-block;
+    width: 30%;
+    margin-left: 1.2rem;
+    margin-top: 0;
+}
+.white {
+    color: #fff;
+}
+
+.context p {
+    color: #d3d4d4;
+    opacity: 0.5;
+}
+
+.partimg img{
+    width: 100%;
+    height: 12rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    margin-top: 0;
+
+} 
+
+
+.container h3 {
+    text-align: center;
+}
+
+.h3font{
+    font-size: 2.6rem;
+    font-family: "Edu QLD Beginner", cursive;
+}
+
+.makale h4 {
+    text-align: center;
+    font-family: "Edu QLD Beginner", cursive;
+    font-size: 2rem;
+}
+
+.makaleimg {
+    width: 100%;
+}
+.makaleimg img {
+    width: 100%;
+    height: 30rem;
+    border-radius: 3rem;
+    padding: auto;
+    margin-bottom: 1rem;
+}
+
+.makale p {
+    text-align: justify;
+}
+
+footer{
+    width: 100%;
+}
+
+.footersvg{
+  margin-top: 2rem;
+  width: 100%;
+  aspect-ratio: 20 / 2;
+  background-image: url(/assets/footer_img.jpg);
+  background-position: center 12.5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
