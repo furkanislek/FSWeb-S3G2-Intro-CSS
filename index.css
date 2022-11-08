@@ -1,0 +1,109 @@
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  padding: 50px 400px;
+}
+
+.container .space-between li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container.main{
+    background-color: #DDB9A3;
+    margin: 5px 350px;
+    padding: 5px 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.space-between {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-item {
+  width: 200px;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+
+.gezi {
+  background-color: #ff764e;
+}
+
+.bilgi {
+  background-color: #5ed3eb;
+}
+
+.karsilastirma {
+  background-color: #ffcd69;
+}
+
+.ortalamaimg img {
+  border-radius: 50%;
+  width: 100%;
+  height: 300px;
+}
+
+.ortalama {
+  display: inline-block;
+}
+
+.ortalamaimg {
+  display: inline-block;
+  padding-right: 8rem;
+  padding-top: 90px;
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+}
+
+.ortalama {
+  text-align: center;
+  display: inline-block;
+  padding-right: 8rem;
+  padding-top: 90px;
+  width: 50%;
+}
+
+.ortalama h2 {
+  font-family: "Edu QLD Beginner", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+
+.part1{
+    text-align: center;
+    width: 25rem;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.part1 img{
+    width: 4rem;
+}
+
+footer{
+    width: 100%;
+}
+
+.footersvg{
+    width: 100%;
+
+  aspect-ratio: 20 / 2;
+
+  background-image: url(/assets/footer_img.jpg);
+  background-position: center 12.5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
